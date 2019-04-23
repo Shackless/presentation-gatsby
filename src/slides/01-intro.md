@@ -1,6 +1,10 @@
-# Gatsby Deck
+# JAMstack & Gatsby
 
-Create presentations using Gatsby & React.
+## Make static sites great again!
+
+Simon Hopstätter  
+E.ON DD&T  
+05 / 2019
 
 ---
 
@@ -13,6 +17,19 @@ Create presentations using Gatsby & React.
 ---
 
 # 🤫
+
+---
+
+```javascript
+export const query = graphql`
+  query SlideQuery($index: Int!) {
+    slide(index: { eq: $index }) {
+      html
+      index
+    }
+  }
+`;
+```
 
 ---
 
