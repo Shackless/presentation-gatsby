@@ -4,11 +4,14 @@
   "version": "1.0.0",
   "author": "Simon Hopstätter <shackles@mailbox.org>",
   "dependencies": {
+    "babel-plugin-styled-components": "^1.10.0",
     "gatsby": "^2.0.33",
+    "gatsby-background-image": "^0.3.6",
     "gatsby-plugin-layout": "^1.0.1",
     "gatsby-plugin-offline": "^2.0.5",
     "gatsby-plugin-react-helmet": "^3.0.0",
     "gatsby-plugin-sharp": "^2.0.14",
+    "gatsby-plugin-styled-components": "^3.0.7",
     "gatsby-remark-copy-images": "^0.2.1",
     "gatsby-remark-copy-linked-files": "^2.0.7",
     "gatsby-remark-images": "^3.0.1",
@@ -17,6 +20,7 @@
     "gatsby-source-filesystem": "^2.0.1",
     "gatsby-transformer-remark": "^2.1.15",
     "gatsby-transformer-sharp": "^2.1.9",
+    "intersection-observer": "^0.5.1",
     "prismjs": "^1.16.0",
     "react": "^16.5.1",
     "react-dom": "^16.5.1",
@@ -25,7 +29,8 @@
     "react-transition-group": "^2.4.0",
     "remark": "^9.0.0",
     "remark-html": "^8.0.0",
-    "remark-preset-lint-recommended": "^3.0.2"
+    "remark-preset-lint-recommended": "^3.0.2",
+    "styled-components": "^4.2.0"
   },
   "keywords": [
     "gatsby",

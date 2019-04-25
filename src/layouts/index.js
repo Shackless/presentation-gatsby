@@ -6,6 +6,7 @@ import Swipeable from 'react-swipeable';
 import Transition from '../components/transition';
 
 import './index.css';
+import BackgroundSection from '../components/background';
 
 const Header = ({ name, title, date }) => (
   <header>
@@ -69,9 +70,13 @@ class TemplateWrapper extends Component {
           onSwipedLeft={this.swipeLeft}
           onSwipedRight={this.swipeRight}
         >
-          <Transition location={location}>
-            <div id="slide" style={{'width': '100%'}}>{children}</div>
-          </Transition>
+          <BackgroundSection>
+            <Transition location={location}>
+              <div id="slide" style={{ width: '100%' }}>
+                {children}
+              </div>
+            </Transition>
+          </BackgroundSection>
         </Swipeable>
       </div>
     );
