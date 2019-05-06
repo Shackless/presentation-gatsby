@@ -72,7 +72,7 @@ class TemplateWrapper extends Component {
         >
           <BackgroundSection>
             <Transition location={location}>
-              <div id="slide" style={{ width: '100%' }}>
+              <div id="slide">
                 {children}
               </div>
             </Transition>
