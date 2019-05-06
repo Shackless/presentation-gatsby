@@ -72,9 +72,7 @@ class TemplateWrapper extends Component {
         >
           <BackgroundSection>
             <Transition location={location}>
-              <div id="slide">
-                {children}
-              </div>
+              <div id="slide">{children}</div>
             </Transition>
           </BackgroundSection>
         </Swipeable>

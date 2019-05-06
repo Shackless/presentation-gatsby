@@ -1,10 +1,6 @@
 const path = require('path');
-const { createFilePath } = require('gatsby-source-filesystem')
-const remark = require('remark');
-const recommended = require('remark-preset-lint-recommended');
-const html = require('remark-html');
 const crypto = require('crypto');
-const _ = require('lodash')
+const _ = require('lodash');
 
 // Remove trailing slash
 exports.onCreatePage = ({ page, actions }) => {
@@ -37,7 +33,7 @@ exports.createPages = ({ actions, createNodeId, graphql }) => {
       allMarkdownRemark {
         edges {
           node {
-            fileAbsolutePath,
+            fileAbsolutePath
             html
           }
         }
@@ -49,10 +45,15 @@ exports.createPages = ({ actions, createNodeId, graphql }) => {
     }
 
     const slides = result.data.allMarkdownRemark.edges;
-    slides.sort((a, b) => a.node.fileAbsolutePath > b.node.fileAbsolutePath ? 1 : -1)
-    const nodes = slides.flatMap((s) => s.node.html.split('<hr>').map((html) => ({
-      node: s.node, html
-    })))
+    slides.sort(
+      (a, b) => (a.node.fileAbsolutePath > b.node.fileAbsolutePath ? 1 : -1)
+    );
+    const nodes = slides.flatMap(s =>
+      s.node.html.split('<hr>').map(html => ({
+        node: s.node,
+        html,
+      }))
+    );
 
     nodes.forEach(({ node, html }, index) => {
       const digest = crypto
@@ -71,7 +72,7 @@ exports.createPages = ({ actions, createNodeId, graphql }) => {
         html: html,
         index: index + 1,
       });
-    })
+    });
 
     nodes.forEach((slide, index) => {
       createPage({
