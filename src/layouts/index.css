@@ -1,8 +1,8 @@
 :root {
   --bg: #fdfdfd;
   --meta: #888;
-  --accent: #3178cd;
-  --text: black;
+  --accent: #1ea2b1;
+  --text:#39393a;
   --base: 1.5rem;
 }
 
@@ -51,8 +51,32 @@ html {
 }
 
 #slide ul {
-    text-align: left;
-    margin-left: 32px;
+  display: inline-block;
+  list-style-type: disc;
+  margin: 0.3em 0px -0.3em 0em;
+  padding: 0 1em;
+  text-align: left;
+}
+
+#slide ul li {
+  display: list-item;
+  margin-bottom: .7rem;
+  font-weight: 400;
+}
+
+#slide ul li ul {
+  margin-top: 0.1em;
+}
+
+#slide ul li ul li {
+  margin-bottom: .3rem;
+  font-size: 90%;
+  font-weight: 300;
+}
+
+#slide ul li p {
+  margin: 0;
+  padding: 0;
 }
 
 a {
@@ -104,14 +128,14 @@ a:hover {
 
 h1 {
   font-size: 200%;
-
-  margin-bottom: 0.5rem;
+  margin-bottom: 3rem;
+  color: #ea1c0a;
 }
 
 h2 {
-  font-size: 120%;
-
-  margin-bottom: 0.5rem;
+  font-size: 140%;
+  margin-bottom: 1.5rem;
+  color: #ea1c0a;
 }
 
 p {

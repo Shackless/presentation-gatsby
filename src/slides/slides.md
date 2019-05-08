@@ -2,8 +2,6 @@
 
 ![Back to The Future Animation](//media.giphy.com/media/xp0zPWfyPTlYI/giphy.gif)
 
-## Make static sites great again!
-
 Simon Hopstätter    
 05 / 2019
 
@@ -27,14 +25,13 @@ Simon Hopstätter
 - Almost 50% of these sites are hosted on wordpress.com
 - wordpress.com has 142M unique visits per month
 
+## Downsides
 
 - Resources: Webservers, FTPs, Databases
 - Less than 1/3 are updated to the latest version
 - Many sites are abandoned
 
 ---
-
-## Meet JAMstack
 
 ![JAMstack](./jamstack.png)
 
@@ -52,28 +49,6 @@ Simon Hopstätter
 
 ---
 
-## What is our static site?
-
-- JavaScript: Basically React & NodeJS (Gatsby)
-- APIs: Allowed but NOT treated as part of our site (e.g. Google Geolocation, Twitter API etc.)
-  - GraphQL queries at build-time for content (Markdown, posts, images...)
-- Markup: Generated HTML5
-
-**Everything gets precompiled!**
-
----
-
-## JAMstack & Gatsby in a nutshell
-
-- Write posts & pages - in React/HTML or MDX 💖
-- Push changes to remote git repository
-- Everything else can be automated
-  - Build site using a static site generator (Gatsby)
-  - Deploy to CDN hoster (Netlify)
-- Site is live!
-
----
-
 ## The Great Gatsby
 
 ![Gatsby Architecture](./gatsby-architecture.png)
@@ -83,6 +58,17 @@ Simon Hopstätter
 ## Code!
 
 ![Live Demo](./live-demo.jpg)
+
+---
+
+## JAMstack & Gatsby in a nutshell
+
+- Write content in React/JS/HTML or MDX 💖
+- Push changes to remote git repository
+- Everything else can be automated
+  - Build site using a static site generator (Gatsby)
+  - Deploy to CDN hoster (Netlify)
+- Site is live!
 
 ---
 
@@ -106,7 +92,7 @@ Simon Hopstätter
 
 - Every change requires a new build
 - Not suited for every web application
-  - complex SPAs
+  - Complex SPAs
   - Sites relying heavily on access control
 
 ---
