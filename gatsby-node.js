@@ -2,7 +2,6 @@ const path = require('path');
 const crypto = require('crypto');
 const _ = require('lodash');
 
-// Remove trailing slash
 exports.onCreatePage = ({ page, actions }) => {
   const { createPage, deletePage } = actions;
 

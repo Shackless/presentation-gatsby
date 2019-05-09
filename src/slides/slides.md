@@ -7,7 +7,7 @@ Simon Hopstätter
 
 ---
 
-## Agenda
+## Contents
 
 - How web architecture evolved
 - JAMstack
@@ -125,3 +125,7 @@ Simon Hopstätter
 ![The Great Gatsby Animation](//cdn.vox-cdn.com/thumbor/t2xNU6eTG3xvDr80Z5ssWb_9EYE=/0x0:800x333/920x613/filters:focal(336x103:464x231):no_upscale()/cdn.vox-cdn.com/uploads/chorus_image/image/55278743/gatsby.1497548146.gif)
 
 Any questions or remarks?
+
+---
+
+## Hi!
