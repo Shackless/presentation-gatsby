@@ -59,17 +59,17 @@ Simon Hopstätter
 
 ---
 
-## The Great Gatsby
+## Gatsby
 
 ![Gatsby Architecture](./gatsby-architecture.png)
 
 ---
 
-## Special Gatsby Features
+## Why Gatsby is great
 
 - Performance!
 - PWA out-of-the-box
-- Starters (& soon Themes)
+- Starters (& soon themes)
 - Lots of plugins for data sources, e.g. Wordpress
   - Fully progressive & responsive image component
   - Markdown & MDX
