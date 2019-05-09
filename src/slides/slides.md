@@ -7,6 +7,16 @@ Simon Hopstätter
 
 ---
 
+## Agenda
+
+- How web architecture evolved
+- JAMstack
+- Gatsby
+- Pros & Cons
+- Code!
+
+---
+
 ## Late 1990s to early 2000s: Static Websites
 
 ![Static Websites with MS Frontpage](./frontpage.jpg)
@@ -55,9 +65,16 @@ Simon Hopstätter
 
 ---
 
-## Code!
+## Special Gatsby Features
 
-![Live Demo](./live-demo.jpg)
+- Performance!
+- PWA out-of-the-box
+- Starters (& soon Themes)
+- Lots of plugins for data sources, e.g. Wordpress
+  - Fully progressive & responsive image component
+  - Markdown & MDX
+  - Headless CMS, e.g. netlify-cms or Contentful
+- Documentation
 
 ---
 
@@ -94,6 +111,12 @@ Simon Hopstätter
 - Not suited for every web application
   - Complex SPAs
   - Sites relying heavily on access control
+
+---
+
+## Code!
+
+![Live Demo](./live-demo.jpg)
 
 ---
 
